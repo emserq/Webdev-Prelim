@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+
+body {
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Unica One',cursive;
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	font-size: 70px;
+	padding: 0px;
+	
+}
+
+h2 {
+	color: white;
+	margin-top: 0px;
+	margin-left: 150px;
+	margin-bottom: 0px;
+	padding-left: 40px;
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	margin-top: 0px;
+	margin-left: 150px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+img {
+	float: right;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin-right: 200px;
+	margin-top: 0px;
+}
+
+td {
+	background:rgba(0, 0, 0, 0.3);
+}
+
+.back i {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	transition: all ease-in-out 250ms;
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+
+.back i:hover {
+	color:  #cc0066;
+	background-color: white;
+}
+
+.back {
+	text-align: center;
+}
+ 

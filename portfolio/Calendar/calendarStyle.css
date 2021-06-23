@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.month {
+	font-family:'Quintessential', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+.name {
+	font-family: "Courier New";
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px 1px black;
+}
+
+a {
+  	text-decoration: none;
+   	display: inline-block;
+  	font-size: 35px;
+  	width: 30%;
+   	text-align: center;
+   	text-shadow: 2px 1px black;
+
+}
+
+.back:hover {
+   	background-color: white;
+   	color: black;
+   	opacity: 0.5;
+}
+
+.next:hover {
+   	background-color: white;
+   	color: white;
+   	opacity: 0.5;
+}
+
+.back {
+   	color: white;
+}
+
+.next {
+   	color: white;
+}
+
+body {
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+table {
+	table-layout: fixed;
+	overflow-wrap: break-word;
+	width: 100%
+	border-collapse: collapse;
+	font-family: "Courier New";
+
+}
+
+tr, td {
+
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+.day {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 1px black;
+}
+
+.date {
+	color: white;
+	text-align: center;
+	text-shadow: 2px 1px black;
+	font-size: 25px;
+}
+
+.marked {
+	margin: 0;
+	padding: 0;
+	border-radius: 50px 0px;
+	background-image: linear-gradient(180deg, #42275a , #734b6d);
+	font-size: 20px;
+	position: relative;
+
+}
+
+.return i {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	transition: all ease-in-out 250ms;
+	text-decoration: none;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+
+.return i:hover {
+	color:  #cc0066;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.return {
+	text-align: center;
+}
+
+/*---------------------Button---------------------------*/
+
+.home i {
+	 color: rgba(0,0,0,0);
+	 font-size: 40px;
+	 padding: 10px;
+	 transition: all ease-in-out 250ms;
+	 text-decoration: none;
+	 text-align: center;
+	 opacity: 0.7;
+	 border-radius: 10px 0px;
+}
+
+.home i:hover {
+	color: white;
+}
+
+.home {
+	position: absolute;
+	text-align: center;
+
+}
+
+.work i {
+	 color: rgba(0,0,0,0);
+	 font-size: 40px;
+	 padding: 10px;
+	 transition: all ease-in-out 250ms;
+	 text-decoration: none;
+	 text-align: center;
+	 opacity: 0.7;
+	 border-radius: 10px 0px;
+}
+
+.work i:hover {
+	color: white;
+}
+
+.work {
+	position: absolute;
+	text-align: center;
+	margin-left:70px;
+}
+
+
+	/*--------------- TOOLTIP -----------------*/
+
+.marked .holidays{
+  	visibility: hidden;
+  	background-image: linear-gradient(180deg, #42275a , #734b6d);
+  	color: #fff;
+  	width: 90%;
+  	text-align: center;
+  	border-radius: 6px;
+  	padding: 15px;
+  	position: absolute;
+  	z-index: 1;
+  	bottom: 125%;
+  	left: 50%;
+  	margin-left: -100px;
+  	opacity: 0;
+  	transition: opacity 0.5s;
+}
+
+.marked .holidays::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #734b6d transparent transparent transparent;
+}
+
+.marked:hover .holidays {
+  visibility: visible;
+  opacity: 1;
+}

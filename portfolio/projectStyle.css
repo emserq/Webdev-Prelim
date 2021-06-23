@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+body {
+	background-image: url(img/background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header {
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Unica One', cursive;
+	text-shadow: 2px 2px 4px black; 
+}
+
+.Icon1 {
+	text-align: center;
+	font-size: 60px;
+	float: left;
+	padding-right: 100px;
+	padding-left: 400px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.title {
+	font-family: 'Courier New';
+	font-size: 30px;
+	padding-left: 100px;
+	margin-bottom: 0px;
+	transition: .4s;
+}
+
+.title:hover {
+	transform: scale(1.1);
+}
+
+.instruction {
+	font-family: 'Courier New';
+	font-size: 15px;
+	padding-left: 200px;
+	margin-top:0px;
+	padding-right: 0px;
+
+}
+
+.work1 {
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(255,255,255,0.5);
+
+}
+
+.emptyIcon {
+	text-align: center;
+	font-size: 60px;
+	float: left;
+	padding-right: 100px;
+	padding-left: 400px;
+	padding-top: 30px;
+	padding-bottom:40px;
+	margin-top: 10px;
+}
+
+.empty{
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(255,255,255,0.5);
+	padding-bottom: 0px;
+
+}
+
+.emptyTitle {
+	font-family: 'Courier New';
+	font-size: 30px;
+	margin-bottom: 0px;
+	transition: .4s;
+}
+
+.emptyTitle:hover {
+	transform: scale(1.1);
+}
+
+.emptyInstruction {
+	font-family: 'Courier New';
+	font-size: 15px;
+	margin-top:0px;
+	padding-right: 0px;
+}
+
+.back i {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	transition: all ease-in-out 250ms;
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+
+.back i:hover {
+	color:  #cc0066;
+	background-color: white;
+}
+
+.back {
+	text-align: center;
+}
